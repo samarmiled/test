@@ -1,4 +1,5 @@
-import 'package:demo/src/screens/voyance_par_tel.dart';
+import 'package:demo/src/screens/a_propos_page.dart';
+import 'package:demo/src/screens/voyance_par_tel_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      showSemanticsDebugger: false,
+      debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
